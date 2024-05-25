@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --orangeDim: #fb9a31;
+  --white: #f1f1f1;
+  --darkBlue: #131921;
+  --navyBlue: #232f3e;
+  --bgColor: #eaeded;
+  --orange: #de5b27;
+}
+
+h5,
+p,
+h2 {
+  color: var(--navyBlue);
+}
+
+.main_about {
+  background-color: var(--orangeDim);
+  color: var(--navyBlue);
+}
+
+/* Navbar */
+
+.alert {
+  background-color: var(--navyBlue);
+  color: var(--white);
+  /* width: 100%; */
+}
+
+.navbar {
+  background-color: var(--darkBlue) !important;
+}
+
+.navbar-toggler {
+  background-color: var(--white) !important;
+  color: #f1f1f1 !important;
+}
+
+.brand_logo {
+  color: var(--white) !important;
+}
+
+.nav-link {
+  color: var(--white) !important;
+}
+
+.shop_cart {
+  font-size: 20px;
+  color: var(--white);
+}
+
+.shopping_a {
+  text-decoration: none;
+}
+
+.shopping_a > span {
+  color: var(--white);
+}
+
+/* Navbar */
+
+.adds {
+  background-color: var(--bgColor);
+}
+
+.button {
+  background-color: var(--orange) !important;
+  color: var(--white) !important;
+}
+
+.footer {
+  background-color: var(--navyBlue);
+  color: var(--white);
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* html,
+body {
+  background-color: var(--bgColor);
+} */
+
+h2 {
+  color: var(--orange);
+}
+p {
+  color: var(--navyBlue);
+}
+
+:root {
+  --white: #f1f1f1;
+  --darkBlue: #131921;
+  --navyBlue: #232f3e;
+  --bgColor: #eaeded;
+  --orange: #de5b27;
+}
+
+/* Navbar */
+
+.alert {
+  background-color: var(--navyBlue);
+  color: var(--white);
+  /* width: 100%; */
+}
+
+.navbar {
+  background-color: var(--darkBlue) !important;
+}
+
+.navbar-toggler {
+  background-color: var(--white) !important;
+  color: #f1f1f1 !important;
+}
+
+.brand_logo {
+  color: var(--white) !important;
+}
+
+.nav-link {
+  color: var(--white) !important;
+}
+
+.shop_cart {
+  font-size: 20px;
+  color: var(--white);
+}
+
+.shopping_a {
+  text-decoration: none;
+}
+
+.shopping_a > span {
+  color: var(--white);
+}
+
+/* Navbar */
+
+/* popular items */
+
+.popular_items {
+  border-bottom: 6px solid var(--orange);
+  height: 75px;
+  width: 100%;
+}
+
+.popular_section {
+  background-color: var(--bgColor) !important;
+}
+
+.button {
+  background-color: var(--orange) !important;
+  color: var(--white) !important;
+}
+
+.logo-list {
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.logo-list img {
+  display: inline-block;
+  max-width: 85%;
+  padding: 15px 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-filter: grayscale(100);
+  -moz-filter: grayscale(100);
+  filter: grayscale(100);
+}
+.logo-list img:hover {
+  filter: none;
+  transform: scale(1.2);
+  -webkit-filter: none;
+  -moz-filter: none;
+}
+
+.SUBSCRIBE {
+  background-color: var(--darkBlue);
+}
+
+.footer {
+  background-color: var(--navyBlue);
+  color: var(--white);
+}
